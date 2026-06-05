@@ -50,6 +50,14 @@
 - Open Visual Studio
 - Choose 'Catppuccin' theme in Tools > Theme
 
+**Install a CI build (this fork)**
+
+> 🛠️ This fork auto-builds an installable `.vsix` on every push to `feat/resharper-cpp-colors`
+> via the **Build VSIX** GitHub Action — see the **Actions** tab. The newest build is always
+> attached to the rolling **[`vsix-latest`](../../releases/tag/vsix-latest)** prerelease under
+> **Releases**. Download the `.vsix`, close Visual Studio, double-click to install, then pick
+> the theme in Tools > Theme.
+
 ## 💝 Thanks to
 
 - [djflan](https://github.com/djflan)

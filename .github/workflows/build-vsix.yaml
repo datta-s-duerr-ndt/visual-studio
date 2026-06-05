@@ -1,0 +1,31 @@
+name: Build VSIX
+
+on:
+  push:
+    branches: [ feat/resharper-cpp-colors ]
+  workflow_dispatch:
+
+permissions:
+  contents: write          # needed to publish the release
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: nuget/setup-nuget@v2
+      - uses: microsoft/setup-msbuild@v2
+      - name: Sync NuGet packages
+        run: nuget restore 'Catppuccin VS Themes'
+      - name: Build
+        run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal 'Catppuccin VS Themes'
+      - name: Publish installable VSIX to a rolling release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: vsix-latest
+          name: Latest VSIX build
+          prerelease: true
+          files: Catppuccin VS Themes/bin/Release/Catppuccin.for.Visual.Studio.vsix
+          body: |
+            Auto-built installable VSIX from `${{ github.ref_name }}` (commit `${{ github.sha }}`).
+            Download `Catppuccin.for.Visual.Studio.vsix` below, close Visual Studio, and double-click to install.
