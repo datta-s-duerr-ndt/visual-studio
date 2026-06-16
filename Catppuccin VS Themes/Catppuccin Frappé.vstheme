@@ -6469,11 +6469,11 @@
       </Color>
       <Color Name="CppFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="CppMemberFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="CppMemberFieldSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6481,7 +6481,7 @@
       </Color>
       <Color Name="CppStaticMemberFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="CppStaticMemberFieldSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6505,7 +6505,7 @@
       </Color>
       <Color Name="CppFunctionTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="CppNamespaceSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7121,27 +7121,27 @@
       </Color>
       <Color Name="ReSharper C++ Global Function Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="ReSharper C++ Global Function Usage Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="ReSharper C++ Member Function Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="ReSharper C++ Member Function Usage Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="ReSharper C++ Static Member Function Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="ReSharper C++ Static Member Function Usage Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8CAAEE" />
+        <Foreground Type="CT_RAW" Source="FFBABBF1" />
       </Color>
       <Color Name="ReSharper C++ Overloaded Operator Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
