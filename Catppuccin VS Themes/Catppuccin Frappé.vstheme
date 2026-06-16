@@ -5321,7 +5321,7 @@
       </Color>
       <Color Name="Preprocessor Keyword">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE78284" />
+        <Foreground Type="CT_RAW" Source="FF99D1DB" />
       </Color>
       <Color Name="preprocessor text">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6349,7 +6349,7 @@
       </Color>
       <Color Name="parameter name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFEA999C" />
+        <Foreground Type="CT_RAW" Source="FFEEBEBE" />
       </Color>
       <Color Name="extension method name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6453,7 +6453,7 @@
       </Color>
       <Color Name="CppParameterSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFEA999C" />
+        <Foreground Type="CT_RAW" Source="FFEEBEBE" />
       </Color>
       <Color Name="CppTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7065,7 +7065,7 @@
       </Color>
       <Color Name="ReSharper C++ Template Parameter Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFEA999C" />
+        <Foreground Type="CT_RAW" Source="FFEEBEBE" />
       </Color>
       <Color Name="ReSharper C++ Deduction Guide Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7113,7 +7113,7 @@
       </Color>
       <Color Name="ReSharper C++ Parameter Variable Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFEA999C" />
+        <Foreground Type="CT_RAW" Source="FFEEBEBE" />
       </Color>
       <Color Name="ReSharper C++ Dependent Name Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7157,7 +7157,7 @@
       </Color>
       <Color Name="ReSharper C++ Preprocessor Macro Parameter Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFEA999C" />
+        <Foreground Type="CT_RAW" Source="FFEEBEBE" />
       </Color>
       <Color Name="ReSharper C++ Integer Literal">
         <Background Type="CT_INVALID" Source="00000000" />
