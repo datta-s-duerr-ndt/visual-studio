@@ -1,4 +1,4 @@
-﻿<Themes>
+<Themes>
   <Theme Name="Catppuccin Latte" GUID="{e7a62ef4-c543-417d-a76c-a37dc623c22b}" BaseGUID="{de3dbbcd-f642-433c-8353-8f1df4370aba}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="NumberedListItemActive">
@@ -6442,7 +6442,7 @@
       </Color>
       <Color Name="CppEnumSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppGlobalVariableSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6458,15 +6458,15 @@
       </Color>
       <Color Name="CppTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppRefTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppValueTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6498,11 +6498,11 @@
       </Color>
       <Color Name="CppClassTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppGenericTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppFunctionTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7182,27 +7182,27 @@
       </Color>
       <Color Name="ReSharper C++ Class Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="ReSharper C++ Struct Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="ReSharper C++ Union Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="ReSharper C++ Enum Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="ReSharper C++ Concept Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="ReSharper C++ Typedef Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="ReSharper C++ Template Parameter Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7210,7 +7210,7 @@
       </Color>
       <Color Name="ReSharper C++ Deduction Guide Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="ReSharper C++ Module Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -11961,7 +11961,7 @@
       </Color>
       <Color Name="CppEnumSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppGlobalVariableSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -11977,15 +11977,15 @@
       </Color>
       <Color Name="CppTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppRefTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppValueTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -12017,11 +12017,11 @@
       </Color>
       <Color Name="CppClassTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppGenericTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppFunctionTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
