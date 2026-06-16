@@ -15,6 +15,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: nuget/setup-nuget@v2
       - uses: microsoft/setup-msbuild@v2
+      - name: Patch pre-release version
+        shell: pwsh
+        run: |
+          $manifest = 'Catppuccin VS Themes/source.extension.vsixmanifest'
+          $content = Get-Content $manifest -Raw
+          $content = $content -replace '(?<=<Identity\b[^>]*\bVersion=")(\d+\.\d+\.\d+)(?=")', "`$1.${{ github.run_number }}"
+          Set-Content $manifest $content -Encoding UTF8
+          Write-Host "Patched version: $(([xml]$content).PackageManifest.Metadata.Identity.Version)"
       - name: Sync NuGet packages
         run: nuget restore 'Catppuccin VS Themes'
       - name: Build
